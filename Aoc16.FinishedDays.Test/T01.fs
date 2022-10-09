@@ -1,4 +1,4 @@
-﻿module Aoc16.ActiveDay.T01
+﻿module Aoc16.FinishedDays.Test.T01
 open Aoc16.D01
 
 open Aoc16.Input
