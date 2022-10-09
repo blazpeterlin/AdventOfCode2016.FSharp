@@ -27,6 +27,7 @@ let solve =
     opt.Add(dY >=. 0.0)
     opt.Add(dZ =. dX + dY + 1.3)
 
+    //dict [("Z3_get_numeral_decimal_string","true")]
     Gs.overrideContext(Dictionary<string,string>())
 
 
@@ -36,6 +37,7 @@ let solve =
     opt.CheckOrFail()
     let res = opt.Eval dZ
 
+    //let parsedRes = Microsoft.CodeAnalysis.CSharp.SyntaxFactory.ParseExpression(res.ToString())
     res.ToString()
 
 let finished = true

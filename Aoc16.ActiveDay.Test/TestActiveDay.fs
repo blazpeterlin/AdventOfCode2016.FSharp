@@ -9,16 +9,16 @@ open System
 let Setup () =
     ()
     
-[<TestCase("input-TEST.txt")>] 
-let Test1 (fn : string) = 
+[<TestCase("input-TEST.txt", 0)>] 
+let Test1 (fn : string, res: int) = 
     let input = fn |> f2text
     let sln1 = solve1 input
     Console.WriteLine(sln1)
-    Assert.Pass(sln1.ToString())
+    Assert.That (sln1, Is.EqualTo res)
 
-[<TestCase("input-TEST.txt")>] 
-let Test2 (fn : string) = 
+[<TestCase("input-TEST.txt", 0)>] 
+let Test2 (fn : string, res: int) = 
     let input = fn |> f2text
     let sln2 = solve2 input
     Console.WriteLine(sln2)
-    Assert.Pass(sln2.ToString())
+    Assert.That (sln2, Is.EqualTo res)

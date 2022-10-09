@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="input-TEST.txt">
+    <Content Include="D01\input-TEST.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Compile Include="D01\T01.fs" />
     <Compile Include="TestPractice_Z3_MinSquared.fs" />
-    <Compile Include="T01.fs" />
   </ItemGroup>
 
   <ItemGroup>
