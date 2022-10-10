@@ -13,4 +13,4 @@ let Setup () =
 [<TestCase>]
 let Test1() = 
     let sln1 = solve
-    Assert.That(sln1, Is.EqualTo "abc")
+    Assert.That(sln1, Is.EqualTo "13/10")

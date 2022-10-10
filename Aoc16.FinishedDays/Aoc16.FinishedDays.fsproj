@@ -6,8 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Practice_Z3_MinSquared.fs" />
+    <Compile Include="D02.fs" />
     <Compile Include="D01.fs" />
+    <Compile Include="Practice_Z3_MinSquared.fs" />
   </ItemGroup>
 
   <ItemGroup>

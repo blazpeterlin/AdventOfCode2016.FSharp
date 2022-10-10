@@ -19,9 +19,11 @@ let parse2lines (text:string) =
     |> List.map parseLine
 
 let solve1 (text:string) = 
+    let inp = text |> parse2lines
     0
     
 let solve2 (text:string) =
+    let inp = text |> parse2lines
     0
 
 let res1 = input |> solve1
