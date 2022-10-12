@@ -5,6 +5,7 @@ open Input
 open TextCopy
 open System.Collections.Generic
 open Aoc16.Operators
+open Microsoft.FSharp.Core.Operators.Checked
 
 let input =  "input.txt" |> f2text
 
