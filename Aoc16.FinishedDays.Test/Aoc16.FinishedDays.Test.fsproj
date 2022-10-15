@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="D12\input-TEST.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="D12\T12.fs" />
     <Content Include="D11\input-TEST.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -52,7 +56,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Compile Include="D01\T01.fs" />
-    <Compile Include="TestPractice_Z3_MinSquared.fs" />
+    <Compile Include="T00_Practice_Z3_MinSquared.fs" />
   </ItemGroup>
 
   <ItemGroup>

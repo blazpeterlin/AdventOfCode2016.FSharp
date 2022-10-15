@@ -1,4 +1,4 @@
-﻿module Aoc16.FinishedDays.Test.TestPractice_Z3_MinSquared
+﻿module Aoc16.FinishedDays.Test.T00_Practice_Z3_MinSquared
 open Aoc16.Practice_Z3_MinSquared
 
 open Aoc16.Input
