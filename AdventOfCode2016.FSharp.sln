@@ -8,6 +8,9 @@ EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc16.Common", "Aoc16.Common\Aoc16.Common.fsproj", "{3903A201-A045-4091-B728-717DD1FD8D08}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinishedDays", "FinishedDays", "{AA59F290-38EA-4764-A2CA-BF4FF6F7944F}"
+	ProjectSection(SolutionItems) = preProject
+		Aoc16.ActiveDay\Program.fs = Aoc16.ActiveDay\Program.fs
+	EndProjectSection
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc16.FinishedDays", "Aoc16.FinishedDays\Aoc16.FinishedDays.fsproj", "{1527AC2A-69D4-4E49-950A-16B2A22E2832}"
 EndProject
